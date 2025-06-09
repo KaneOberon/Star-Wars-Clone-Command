@@ -25,8 +25,126 @@
     </header>
 
     <main>
-      <h2>Search Page</h2>
-      <p>This is the placeholder for Search content.</p>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Search - Clone Wars Command</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Minimal styles for search */
+    #searchInput {
+      width: 100%;
+      padding: 10px;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      background: #111;
+      border: 1px solid #444;
+      color: #eee;
+    }
+    #searchResults {
+      list-style: none;
+      padding: 0;
+    }
+    #searchResults li {
+      margin: 0.5rem 0;
+    }
+    #searchResults li a {
+      color: #6cf;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #searchResults li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <header>
+      <h1>CLONE WARS COMMAND</h1>
+      <nav>
+        <ul>
+          <li><a href="clone-troopers.html">Clone Troopers</a></li>
+          <li><a href="republic.html">The Republic</a></li>
+          <li><a href="jedi-generals.html">Jedi Generals</a></li>
+          <li><a href="battles.html">Battles</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="tech.html">Tech / Vehicles</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="special-classes.html">Special Classes</a></li>
+          <li><a href="search.html" class="active">Search</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Search</h2>
+      <input type="text" id="searchInput" placeholder="Search clones, battles, ships, classes..." autocomplete="off" />
+      <ul id="searchResults"><li>Start typing to search...</li></ul>
+    </main>
+
+    <footer>
+      <p>© Clone Wars Command — For Historical Reference Use Only.</p>
+    </footer>
+  </div>
+
+  <script>
+    let data = [];
+    const input = document.getElementById('searchInput');
+    const results = document.getElementById('searchResults');
+
+    // Fetch the JSON data file with search entries
+    fetch('search-data.json')
+      .then(response => response.json())
+      .then(json => {
+        data = json;
+      })
+      .catch(err => {
+        results.innerHTML = '<li>Error loading search data.</li>';
+        console.error('Search data load error:', err);
+      });
+
+    input.addEventListener('input', () => {
+      const query = input.value.trim().toLowerCase();
+      if (!query) {
+        results.innerHTML = '<li>Start typing to search...</li>';
+        return;
+      }
+
+      const filtered = data.filter(item => 
+        item.name.toLowerCase().includes(query) ||
+        item.type.toLowerCase().includes(query) ||
+        (item.description && item.description.toLowerCase().includes(query))
+      );
+
+      if (filtered.length === 0) {
+        results.innerHTML = '<li>No results found.</li>';
+        return;
+      }
+
+      results.innerHTML = '';
+      filtered.forEach(item => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = item.url;
+        a.textContent = `${item.name} (${item.type})`;
+        li.appendChild(a);
+        if (item.description) {
+          const desc = document.createElement('p');
+          desc.textContent = item.description;
+          desc.style.color = '#aaa';
+          desc.style.margin = '0.2rem 0 0 0';
+          li.appendChild(desc);
+        }
+        results.appendChild(li);
+      });
+    });
+  </script>
+</body>
+</html>
+
+     
     </main>
 
     <footer>
