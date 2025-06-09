@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Captain Rex",
+    "type": "Clone Commander",
+    "url": "clone-troopers.html#rex",
+    "description": "Leader of the 501st Legion."
+  },
+  {
+    "name": "Commander Cody",
+    "type": "Clone Commander",
+    "url": "clone-troopers.html#cody",
+    "description": "Leader of the 212th Attack Battalion."
+  },
+  {
+    "name": "Battle of Geonosis",
+    "type": "Battle",
+    "url": "battles.html#geonosis",
+    "description": "The first major battle of the Clone Wars."
+  },
+  {
+    "name": "ARC Troopers",
+    "type": "Special Class",
+    "url": "special-classes.html#arc",
+    "description": "Advanced Recon Commandos with special training."
+  },
+  {
+    "name": "Outlander Flight",
+    "type": "Capital Ship",
+    "url": "capital-ships.html#outlander",
+    "description": "Flagship of the Republic fleet."
+  },
+  {
+    "name": "Y-Wing",
+    "type": "Air Fighter",
+    "url": "air-fighters.html#y-wing",
+    "description": "Durable bomber used by the Republic."
+  }
+]
