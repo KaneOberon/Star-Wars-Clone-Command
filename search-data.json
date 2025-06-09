@@ -41,8 +41,6 @@
     "description": "Specialized unit tasked with security on Coruscant, protecting key locations and officials.",
     "link": "clone-troopers.html#coruscant-guard"
   },
-
-  [
   {
     "name": "AT-TE",
     "type": "Ground Vehicle",
@@ -84,9 +82,7 @@
     "type": "Air Fighter",
     "description": "Durable starfighter used for bombing and close air support missions.",
     "link": "tech.html#air-fighters"
-  }
-],
-
+  },
   {
     "name": "ARC Troopers",
     "type": "Special Class",
@@ -165,14 +161,6 @@
     "description": "Specialized clone troopers trained for parachute and air insertion operations.",
     "link": "special-classes.html#airborne"
   },
-
-  {
-    "name": "Y-wing",
-    "type": "Air Fighter",
-    "description": "Durable starfighter used for bombing and close air support missions.",
-    "link": "tech.html#air-fighters"
-  },
-
   {
     "name": "Outbound Flight",
     "type": "Capital Ship",
