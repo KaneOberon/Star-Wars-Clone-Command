@@ -123,22 +123,22 @@
         return;
       }
 
-      results.innerHTML = '';
-      filtered.forEach(item => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = item.url;
-        a.textContent = `${item.name} (${item.type})`;
-        li.appendChild(a);
-        if (item.description) {
-          const desc = document.createElement('p');
-          desc.textContent = item.description;
-          desc.style.color = '#aaa';
-          desc.style.margin = '0.2rem 0 0 0';
-          li.appendChild(desc);
-        }
-        results.appendChild(li);
-      });
+filtered.forEach(item => {
+  const li = document.createElement('li');
+  const a = document.createElement('a');
+  a.href = item.link;
+  a.textContent = `${item.title} (${item.type})`;
+  li.appendChild(a);
+  if (item.description) {
+    const desc = document.createElement('p');
+    desc.textContent = item.description;
+    desc.style.color = '#aaa';
+    desc.style.margin = '0.2rem 0 0 0';
+    li.appendChild(desc);
+  }
+  results.appendChild(li);
+});
+
     });
   </script>
 </body>
