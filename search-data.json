@@ -2,37 +2,229 @@
   {
     "name": "Captain Rex",
     "type": "Clone Commander",
-    "url": "clone-troopers.html#rex",
-    "description": "Leader of the 501st Legion."
+    "description": "Leader of the 501st Legion, known for his loyalty and tactical expertise.",
+    "link": "clone-troopers.html#rex"
+  },
+  {
+    "name": "501st Legion",
+    "type": "Clone Unit",
+    "description": "Elite clone trooper battalion commanded by Captain Rex.",
+    "link": "clone-troopers.html#501st"
   },
   {
     "name": "Commander Cody",
     "type": "Clone Commander",
-    "url": "clone-troopers.html#cody",
-    "description": "Leader of the 212th Attack Battalion."
+    "description": "Trusted commander of the 212th Attack Battalion, known for his loyalty to the Republic.",
+    "link": "clone-troopers.html#cody"
   },
   {
-    "name": "Battle of Geonosis",
-    "type": "Battle",
-    "url": "battles.html#geonosis",
-    "description": "The first major battle of the Clone Wars."
+    "name": "212th Attack Battalion",
+    "type": "Clone Unit",
+    "description": "Famous battalion led by Commander Cody.",
+    "link": "clone-troopers.html#212th"
   },
+  {
+    "name": "104th Battalion (Wolfpack)",
+    "type": "Clone Unit",
+    "description": "Famous for their shark-tooth helmets and jungle combat, led by Commander Wolffe.",
+    "link": "clone-troopers.html#wolfpack"
+  },
+  {
+    "name": "Galactic Marines",
+    "type": "Clone Unit",
+    "description": "Elite heavy infantry clones trained for specialized assault and boarding operations.",
+    "link": "clone-troopers.html#galactic-marines"
+  },
+  {
+    "name": "Coruscant Guard",
+    "type": "Clone Unit",
+    "description": "Specialized unit tasked with security on Coruscant, protecting key locations and officials.",
+    "link": "clone-troopers.html#coruscant-guard"
+  },
+
+  {
+    "name": "AT-TE",
+    "type": "Ground Vehicle",
+    "description": "All Terrain Tactical Enforcer, a six-legged walker used by clone forces for heavy assault and transport.",
+    "link": "tech.html#ground-vehicles"
+  },
+  {
+    "name": "TX-130 Saber-class Tank",
+    "type": "Ground Vehicle",
+    "description": "Heavily armored tank providing fire support to clone ground troops.",
+    "link": "tech.html#ground-vehicles"
+  },
+  {
+    "name": "Juggernaut",
+    "type": "Ground Vehicle",
+    "description": "Large, heavily armored mobile command platform and troop carrier.",
+    "link": "tech.html#ground-vehicles"
+  },
+  {
+    "name": "SPHA",
+    "type": "Ground Vehicle",
+    "description": "Self-Propelled Heavy Artillery providing long-range bombardment support.",
+    "link": "tech.html#ground-vehicles"
+  },
+  {
+    "name": "UT-AT",
+    "type": "Ground Vehicle",
+    "description": "Ultra Tank designed for heavy frontline combat and assault.",
+    "link": "tech.html#ground-vehicles"
+  },
+  {
+    "name": "AT-RT",
+    "type": "Ground Vehicle",
+    "description": "All Terrain Recon Transport, a fast scout vehicle.",
+    "link": "tech.html#ground-vehicles"
+  },
+
   {
     "name": "ARC Troopers",
     "type": "Special Class",
-    "url": "special-classes.html#arc",
-    "description": "Advanced Recon Commandos with special training."
+    "description": "Advanced Recon Commandos with elite training and specialized combat skills.",
+    "link": "special-classes.html#arc"
   },
   {
-    "name": "Outlander Flight",
-    "type": "Capital Ship",
-    "url": "capital-ships.html#outlander",
-    "description": "Flagship of the Republic fleet."
+    "name": "Advanced Recon Commandos (ARC Troopers)",
+    "type": "Special Class",
+    "description": "Highly skilled elite clone troopers specializing in independent and covert operations.",
+    "link": "special-classes.html#arc"
   },
   {
-    "name": "Y-Wing",
+    "name": "Advanced Recon Force (ARF)",
+    "type": "Special Class",
+    "description": "Elite clone unit trained for rapid deployment, reconnaissance, and direct action behind enemy lines.",
+    "link": "special-classes.html#arf"
+  },
+  {
+    "name": "Republic Commandos",
+    "type": "Special Class",
+    "description": "Special operations clones trained for covert missions, sabotage, and reconnaissance.",
+    "link": "special-classes.html#commandos"
+  },
+  {
+    "name": "Temple Guards",
+    "type": "Special Class",
+    "description": "Elite clone troopers tasked with guarding the Jedi Temple and high-ranking Jedi.",
+    "link": "special-classes.html#temple-guards"
+  },
+  {
+    "name": "Pilots",
+    "type": "Special Class",
+    "description": "Clone troopers trained to pilot starfighters and transport ships with precision and skill.",
+    "link": "special-classes.html#pilots"
+  },
+  {
+    "name": "Vehicle Drivers",
+    "type": "Special Class",
+    "description": "Clone troopers specialized in operating a variety of ground and air vehicles in combat.",
+    "link": "special-classes.html#vehicle-drivers"
+  },
+  {
+    "name": "Snipers",
+    "type": "Special Class",
+    "description": "Marksmen clones skilled in long-range engagements and reconnaissance.",
+    "link": "special-classes.html#snipers"
+  },
+  {
+    "name": "Gunners",
+    "type": "Special Class",
+    "description": "Clone troopers trained in operating heavy weapons and turrets on vehicles and ships.",
+    "link": "special-classes.html#gunners"
+  },
+  {
+    "name": "Medics",
+    "type": "Special Class",
+    "description": "Clone troopers with medical training, responsible for battlefield triage and care.",
+    "link": "special-classes.html#medics"
+  },
+  {
+    "name": "Heavy Weapons Specialists",
+    "type": "Special Class",
+    "description": "Clones trained in the use of heavy and demolitions weaponry.",
+    "link": "special-classes.html#heavy-weapons"
+  },
+  {
+    "name": "Jet Troopers",
+    "type": "Special Class",
+    "description": "Clone troopers equipped with jetpacks for airborne assault and rapid deployment.",
+    "link": "special-classes.html#jet-troopers"
+  },
+  {
+    "name": "Airborne Clones",
+    "type": "Special Class",
+    "description": "Specialized clone troopers trained for parachute and air insertion operations.",
+    "link": "special-classes.html#airborne"
+  },
+
+  {
+    "name": "Y-wing",
     "type": "Air Fighter",
-    "url": "air-fighters.html#y-wing",
-    "description": "Durable bomber used by the Republic."
+    "description": "Durable starfighter used for bombing and close air support missions.",
+    "link": "tech.html#air-fighters"
+  },
+
+  {
+    "name": "Outbound Flight",
+    "type": "Capital Ship",
+    "description": "A massive, experimental Republic vessel designed to carry thousands of clones and support extended missions.",
+    "link": "capital-ships.html#outbound-flight"
+  },
+  {
+    "name": "Venator-class Star Destroyer",
+    "type": "Capital Ship",
+    "description": "The backbone of the Republic fleet, heavily armed and versatile.",
+    "link": "capital-ships.html#venator"
+  },
+  {
+    "name": "Acclamator-class Assault Ship",
+    "type": "Capital Ship",
+    "description": "Primary Republic troop transport and assault vessel, capable of delivering heavy firepower and personnel.",
+    "link": "capital-ships.html#acclamator"
+  },
+  {
+    "name": "Consular-class Cruiser",
+    "type": "Cruiser",
+    "description": "Diplomatic cruisers often retrofitted for combat during the Clone Wars.",
+    "link": "cruisers.html#consular"
+  },
+  {
+    "name": "Dreadnought-class Heavy Cruiser",
+    "type": "Cruiser",
+    "description": "Heavily armored and armed cruiser class for frontline combat.",
+    "link": "cruisers.html#dreadnought"
+  },
+  {
+    "name": "Arquitens-class Light Cruiser",
+    "type": "Cruiser",
+    "description": "Light cruiser with strong firepower and reconnaissance capabilities.",
+    "link": "cruisers.html#arquitenes"
+  },
+  {
+    "name": "Defender-class Light Corvette",
+    "type": "Cruiser",
+    "description": "Fast, lightly armored corvette used for escort and patrol duties.",
+    "link": "cruisers.html#defender"
+  },
+
+  {
+    "name": "Battle of Geonosis",
+    "type": "Battle",
+    "description": "The first major battle of the Clone Wars, marking the start of large-scale conflict.",
+    "link": "battles.html#geonosis"
+  },
+  {
+    "name": "Battle of Umbara",
+    "type": "Battle",
+    "description": "A harsh battle fought in dark, dense forests, testing clone trooper resolve and loyalty.",
+    "link": "battles.html#umbara"
+  },
+
+  {
+    "name": "Galactic Republic",
+    "type": "Political Entity",
+    "description": "The governing body of much of the galaxy during the Clone Wars, led by the Galactic Senate.",
+    "link": "republic.html"
   }
 ]
