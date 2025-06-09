@@ -42,41 +42,36 @@
     "link": "clone-troopers.html#coruscant-guard"
   },
 
-  {
-    "name": "AT-TE",
-    "type": "Ground Vehicle",
-    "description": "All Terrain Tactical Enforcer, a six-legged walker used by clone forces for heavy assault and transport.",
-    "link": "tech.html#ground-vehicles"
-  },
-  {
-  "name": "TX-130 Saber-class Tank Destroyer",
-  "url": "tech.html#tx-130-tank",
-  "description": "A heavily armored tank designed to destroy enemy fortifications."
+{
+  "name": "AT-TE",
+  "description": "A six-legged walker used for troop transport and heavy fire support.",
+  "url": "tech.html#at-te"
 },
-  {
-    "name": "Juggernaut",
-    "type": "Ground Vehicle",
-    "description": "Large, heavily armored mobile command platform and troop carrier.",
-    "link": "tech.html#ground-vehicles"
-  },
-  {
-    "name": "SPHA",
-    "type": "Ground Vehicle",
-    "description": "Self-Propelled Heavy Artillery providing long-range bombardment support.",
-    "link": "tech.html#ground-vehicles"
-  },
-  {
-    "name": "UT-AT",
-    "type": "Ground Vehicle",
-    "description": "Ultra Tank designed for heavy frontline combat and assault.",
-    "link": "tech.html#ground-vehicles"
-  },
-  {
-    "name": "AT-RT",
-    "type": "Ground Vehicle",
-    "description": "All Terrain Recon Transport, a fast scout vehicle.",
-    "link": "tech.html#ground-vehicles"
-  },
+{
+  "name": "TX-130 Saber-class Tank Destroyer",
+  "description": "A heavily armored tank designed to destroy enemy fortifications.",
+  "url": "tech.html#tx-130-tank"
+},
+{
+  "name": "Juggernaut",
+  "description": "Massive, heavily armored transport vehicle for large-scale troop deployment.",
+  "url": "tech.html#juggernaut"
+},
+{
+  "name": "SPHA",
+  "description": "Mobile artillery platform for long-range bombardment.",
+  "url": "tech.html#spha"
+},
+{
+  "name": "UT-AT",
+  "description": "Versatile troop carrier with moderate firepower.",
+  "url": "tech.html#ut-at"
+},
+{
+  "name": "AT-RT",
+  "description": "Small, fast scout walker used for reconnaissance missions.",
+  "url": "tech.html#at-rt"
+},
 
   {
     "name": "ARC Troopers",
